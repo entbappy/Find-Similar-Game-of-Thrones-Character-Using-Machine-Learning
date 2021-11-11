@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 REPO_NAME = "Find-Similar-Game-of-Thrones-Character-Using-Machine-Learning"
 AUTHOR_USER_NAME = "entbappy"
 SRC_REPO = "src"
-LIST_OF_REQUIREMENTS = ['streamlit','numpy']
+LIST_OF_REQUIREMENTS = ['streamlit','numpy','plotly','pandas','scikit-learn','matplotlib']
 
 
 setup(
