@@ -5,9 +5,13 @@
 Nine noble families wage war against each other in order to gain control over the mythical land of Westeros. Meanwhile, a force is rising after millenniums and threatens the existence of living men.
 
 First episode date: April 17, 2011
+
 Created by: David Benioff; D. B. Weiss
+
 Genre: Fantasy; Serial drama; Tragedy;
+
 Awards: Primetime Emmy Award for Outstanding Drama Series, MORE
+
 Adapted from: A Song of Ice and Fire, A Game of Thrones
 
 Game of Thrones has a large ensemble cast and follows several story arcs throughout the course of the show. The first major arc concerns the Iron Throne of the Seven Kingdoms of Westeros through a web of political conflicts among the noble families either vying to claim the throne or fighting for independence from whoever sits on it. A second focuses on the last descendant of the realm's deposed ruling dynasty, who has been exiled to Essos and is plotting to return and reclaim the throne. The third follows the Night's Watch, a military order defending the realm against threats from beyond Westeros's northern border.
@@ -43,6 +47,9 @@ Here I have used MNIST Handwritten dataset. You can see it is a higher dimention
 After applying the algorithm you can see the result & visualization. It is still represented those data point in lower dimensional space. You can also see the similar features are very close to each other like 7 is very close to 1 if you consider the features.
 
 <img src="demo/8.png" alt="workflow" width="70%">
+
+### More about how to visualize higher dimensional data:
+ - [Click here](https://github.com/entbappy/Visualizing-High-Dimensional-Data-using-t-SNE)
 
 ### STEP 01- Create a repository by using template repository
 
