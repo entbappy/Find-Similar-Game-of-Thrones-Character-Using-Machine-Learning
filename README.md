@@ -48,8 +48,31 @@ After applying the algorithm you can see the result & visualization. It is still
 
 <img src="demo/8.png" alt="workflow" width="70%">
 
-### More about how to visualize higher dimensional data:
+More about how to visualize higher dimensional data:
  - [Click here](https://github.com/entbappy/Visualizing-High-Dimensional-Data-using-t-SNE)
+
+
+## Implementation of this project:
+
+So as you have already seen how i got the idea. I did the same thing to figure out similar character by using The Ultimate Game of Thrones Dataset from kaggle. Its a dataset that contains all the characters dialouge given in that series. I have done counterVectorizer on this text data for converting to numerical representation then applied t-SNE on top of that. 
+
+experimentation,
+<img src="demo/5.png" alt="workflow" width="70%">
+
+You can see the higher dimensional data poins. But after applying t-SNE it is still represented
+same features & characters.
+
+<img src="demo/6.png" alt="workflow" width="70%">
+
+You can see the similar characters are very close to each other.
+
+
+
+
+
+
+
+
 
 ### STEP 01- Create a repository by using template repository
 
