@@ -49,7 +49,7 @@ After applying the algorithm you can see the result & visualization. It is still
 <img src="demo/8.png" alt="workflow" width="70%">
 
 More about how to visualize higher dimensional data:
- - [Click here](https://github.com/entbappy/Visualizing-High-Dimensional-Data-using-t-SNE)
+ - [How to visualize higher dimensional data](https://github.com/entbappy/Visualizing-High-Dimensional-Data-using-t-SNE)
 
 
 ## Implementation of this project:
@@ -66,35 +66,58 @@ same features & characters.
 
 You can see the similar characters are very close to each other.
 
+## Dataset has been used:
+
+Note: Only use script-bag-of-words.json file
+
+- [Dataset Link](https://www.kaggle.com/mathurinache/game-of-thrones-data?select=script-bag-of-words.json)
 
 
+## Some demo:
+
+<img src="demo/1.png" alt="workflow" width="80%">
+
+<img src="demo/2.png" alt="workflow" width="80%">
+
+<img src="demo/3.png" alt="workflow" width="80%">
+
+<img src="demo/4.png" alt="workflow" width="80%">
 
 
+# How to run?
+### STEPS:
 
-
-
-
-### STEP 01- Create a repository by using template repository
-
-### STEP 02- Clone the new repository
-
-### STEP 03- Create a conda environment after opening the repository in VSCODE
+Clone the repository
 
 ```bash
-conda create --prefix ./env python=3.7 -y
+git clone https://github.com/entbappy/Find-Similar-Game-of-Thrones-Character-Using-Machine-Learning.git
+```
+### STEP 01- Create a conda environment after opening the repository
+
+```bash
+conda create -n character python=3.7.10 -y
 ```
 
 ```bash
-conda activate ./env
-```
-OR
-```bash
-source activate ./env
+conda activate character
 ```
 
-### STEP 04- install the requirements
+
+### STEP 02- install the requirements
 ```bash
 pip install -r requirements.txt
 ```
 
+Now run,
+```bash
+streamlit run app.py
+```
+
+
+```bash
+Author: Bappy Ahmed
+Data Scientist
+Email: entbappy73@gmail.com
+
+```
 
